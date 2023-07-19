@@ -1,0 +1,128 @@
+      
+main{
+  margin: 70px 10% 50px;
+}
+
+#about {
+  text-align: center; 
+  }  
+
+      p{
+        padding: 10px;
+      }
+
+      h2, h1 {
+        margin-bottom: 30px;
+        margin-top: 50px;
+      }
+
+h2 {
+  font-size: 40px;
+  font-weight: normal;
+  margin-top: 30px;
+}
+
+#w {
+  margin-top: 20px;
+}
+
+#text {
+  margin-bottom: 20px;
+}
+
+
+/* FAQ*/
+
+#faq a {
+  text-decoration:none;
+  color: black;
+}
+
+#faq a:hover {
+  color: #FFEE00;
+}
+
+.unsichtbar {
+  display: none;
+}
+
+#frage1:target .unsichtbar {
+	display: block;
+}
+
+
+#frage1:target .sichtbar {
+	display: none;
+}
+
+#frage2:target .unsichtbar {
+	display: block;
+}
+
+#frage2:target .sichtbar {
+	display: none;
+}
+
+#frage3:target .unsichtbar {
+	display: block;
+}
+
+#frage3:target .sichtbar {
+	display: none;
+}
+
+#frage4:target .unsichtbar {
+	display: block;
+}
+
+#frage4:target .sichtbar {
+	display: none;
+}
+
+
+  @media screen and (max-width: 799px) {
+
+    #Foto {
+      width: 60%;
+      border-radius: 50%;
+    }
+    h2, h1 {
+      text-align: center;
+    }
+
+    #container {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+      }
+      
+  #container2 {
+    width: 100%;
+      display: flex;
+      flex-direction: column;
+      }
+  }
+  
+  @media screen and (min-width: 800px) {
+    
+    #Foto {
+      width: 35%;
+      border-radius: 50%;
+    }
+
+    #container {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: row;
+      }
+      
+  #container2 {
+    width: 70%;
+      display: flex;
+      flex-direction: column;
+      margin-left: 50px;
+      }
+
+}
